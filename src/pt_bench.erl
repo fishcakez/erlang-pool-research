@@ -26,7 +26,10 @@ do_one (Mod) ->
   do (ok, 1,35, 1000, [Mod], 5, undefined),
   do (ok, 1,40, 1000, [Mod], 5, undefined),
   do (ok, 1,45, 1000, [Mod], 5, undefined),
-  do (ok, 1,50, 1000, [Mod], 5, undefined).
+  do (ok, 1,50, 1000, [Mod], 5, undefined),
+  do (ok, 1,60, 1000, [Mod], 5, undefined),
+  do (ok, 1,80, 1000, [Mod], 5, undefined),
+  do (ok, 1,100, 1000, [Mod], 5, undefined).
 
 warm (Mods) when is_list (Mods) ->
   % warm up

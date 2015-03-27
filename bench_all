@@ -6,6 +6,7 @@ for m in pt_overhead \
       pt_pooler_sup \
       pt_poolboy_sup \
       pt_gproc_sup \
+      pt_sbroker_sup \
       pt_dispcount_sup ; do
   echo "./bench $m | tee data/$m.dat"
   ./bench $m | tee data/$m.dat
